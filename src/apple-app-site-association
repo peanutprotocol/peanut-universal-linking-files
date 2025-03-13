@@ -4,8 +4,18 @@
         "details": [
             {
                 "appID": "4K73GMPZP8.com.squirrellabs.peanut-app",
-                "paths": ["/claim*", "/claim/*"]
+                "paths": ["*"]
+            },
+            {
+                "appID": "web.app.peanut",
+                "paths": ["*"]
             }
         ]
+    },
+    "webcredentials": {
+      "apps": ["web.app.peanut"]
+    },
+    "activitycontinuation": {
+      "apps": ["web.app.peanut"]
     }
 }
